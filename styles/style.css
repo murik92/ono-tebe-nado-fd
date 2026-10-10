@@ -24,7 +24,7 @@
   margin-left: 1px;
 }
 
-.header__links-list-item_no-bullit {
+.header__links-list-item:first-of-type {
   list-style: none;
 }
 
@@ -80,7 +80,6 @@
 
 .cover {
   position: relative;
-  min-height: 757px;
   padding: 165px 50px 50px;
   color: #fff;
   background-image: url("../images/cover.jpg");
@@ -292,7 +291,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   align-items: start;
   margin-top: 180px;
-  padding: 0 50px;
+  padding: 0 50px 90px;
   font-size: 18px;
 }
 
